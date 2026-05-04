@@ -18,11 +18,11 @@ Complete RAG pipeline using OpenAI's native APIs. The system chunks a pdf proces
 - The mail file to run: **rag_openai_native.ipynb**
 
 *Steps:*
-#    Cell 1 → PDF extraction
-#    Cell 2 → Chunking + filtering -> Results:** 206 chunks · avg 179.8 tokens · max 282 tokens · 0 oversized chunks
-#    Cell 3 → Embedding -> Results:** 209 embeddings · norms mean 1.0000 · min 0.9994 · max 1.0006
-#    Cell 4 → Vector search functions -> review file: vector_search_output.md
-#    Cell 5 → RAG query (Option A ) -> review file: rag_query_output.md 
+*    1 → PDF extraction
+*    2 → Chunking + filtering -> Results:** 206 chunks · avg 179.8 tokens · max 282 tokens · 0 oversized chunks
+*    3 → Embedding -> Results:** 209 embeddings · norms mean 1.0000 · min 0.9994 · max 1.0006
+*    4 → Vector search functions -> review file: vector_search_output.md
+*    5 → RAG query (Option A ) -> review file: rag_query_output.md 
 ---
 
 ## File & Folder Map
